@@ -13,16 +13,16 @@ import { SimulationResultMessage } from './components/SimulationResult';
 
 const initialInputs: UserInputs = {
   birthDate: new Date(1990, 0, 1),
-  expectedDeathAge: 85,
-  retirementAge: 65,
+  expectedDeathAge: 99,
+  retirementAge: 55,
   initialSavings: 10000,
-  salary: 50000,
+  salary: 60000,
   additionalIncome: 0,
   livingExpenses: 25000,
-  mortgageRemainingLiability: 200000,
-  annualMortgageRepayment: 12000,
+  mortgageRemainingLiability: 0,
+  annualMortgageRepayment: 0,
   currentNIYears: 5,
-  pensionContributionRate: 5,
+  pensionContributionRate: 0,
 };
 
 function App() {
